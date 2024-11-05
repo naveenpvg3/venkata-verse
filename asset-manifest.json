@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/venkata-verse/static/css/main.c03fa2a8.chunk.css",
+    "main.js": "/venkata-verse/static/js/main.d3e650cf.chunk.js",
+    "main.js.map": "/venkata-verse/static/js/main.d3e650cf.chunk.js.map",
+    "runtime~main.js": "/venkata-verse/static/js/runtime~main.1d2c4162.js",
+    "runtime~main.js.map": "/venkata-verse/static/js/runtime~main.1d2c4162.js.map",
+    "static/js/2.8f56b018.chunk.js": "/venkata-verse/static/js/2.8f56b018.chunk.js",
+    "static/js/2.8f56b018.chunk.js.map": "/venkata-verse/static/js/2.8f56b018.chunk.js.map",
+    "static/js/3.177faaa1.chunk.js": "/venkata-verse/static/js/3.177faaa1.chunk.js",
+    "static/js/3.177faaa1.chunk.js.map": "/venkata-verse/static/js/3.177faaa1.chunk.js.map",
+    "index.html": "/venkata-verse/index.html",
+    "precache-manifest.722ca65fb5b21abb94ec27999b7c15b1.js": "/venkata-verse/precache-manifest.722ca65fb5b21abb94ec27999b7c15b1.js",
+    "service-worker.js": "/venkata-verse/service-worker.js",
+    "static/css/main.c03fa2a8.chunk.css.map": "/venkata-verse/static/css/main.c03fa2a8.chunk.css.map",
+    "static/media/leetcode-icon.png": "/venkata-verse/static/media/leetcode-icon.90957b38.png",
+    "static/media/my-photo.jpg": "/venkata-verse/static/media/my-photo.033f6a07.jpg"
+  }
+}
