@@ -1,38 +1,233 @@
+/* Global Styles */
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #f4f4f4;
+  text-align: center;
+}
+
 .App {
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+/* Navbar Styles */
+.navbar {
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.navbar ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.navbar li {
+  display: inline;
+  margin-right: 20px;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+.navbar a:hover {
+  color: #ffcc00;
+}
+
+/* Header Section */
+.header {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+}
+
+.header-content {
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+
+/* Profile Section Centering */
+.profile-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* Horizontally centers content */
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  /* Vertically centers content */
+  text-align: center;
+  margin-top: 20px;
+  /* Optional: Adds space above the section */
+}
+
+.profile-photo {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 10px;
+  /* Space between photo and name */
+}
+
+.icons-section {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+.icon {
+  width: 30px;
+  margin-right: 10px;
+}
+
+/* Home Section */
+.home {
+  background-color: #f4f4f4;
+  padding: 50px 0;
+}
+
+.home-content {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.home h2 {
+  font-size: 2em;
+  color: #333;
+}
+
+.home p {
+  font-size: 1.2em;
+  color: #666;
+}
+
+/* About Me Section */
+.about-me {
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  margin-top: 20px;
+}
+
+.about-subsection h3 {
+  color: #333;
+  font-size: 1.5em;
+  margin-bottom: 10px;
+}
+
+.about-subsection p {
+  color: #666;
+}
+
+/* Educational Section */
+.education-section {
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  margin-top: 20px;
+}
+
+.education-entry {
+  margin-bottom: 30px;
+}
+
+.education-entry h2 {
+  color: #333;
+  font-size: 1.5em;
+  margin-bottom: 5px;
+}
+
+.education-entry p {
+  font-size: 1.1em;
+  color: #666;
+  margin: 0;
+}
+
+/* Work Experience Section */
+.work-experience {
+  margin-top: 20px;
+  padding: 20px;
+}
+
+.experience {
+  margin-bottom: 20px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  transition: transform 0.3s ease-in-out;
+}
+
+.experience:hover {
+  transform: translateY(-5px);
+}
+
+.experience .job-title {
+  color: #000;
+  padding: 10px 20px;
+}
+
+.experience .date {
+  font-style: italic;
+  color: #555;
+  padding: 10px 20px;
+}
+
+/* Skillset Section */
+.skillset {
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  margin-top: 20px;
+}
+
+.skill-category {
+  margin-bottom: 20px;
+}
+
+.skill-category h2 {
+  color: #333;
+  font-size: 1.5em;
+  margin-bottom: 10px;
+  border-bottom: 2px solid #333;
+  padding-bottom: 5px;
+}
+
+.skill-category ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.skill-category li {
+  display: inline-block;
+  background-color: #4CAF50;
   color: white;
+  border-radius: 4px;
+  padding: 8px 12px;
+  margin: 5px;
+  font-size: 0.9em;
 }
 
-.App-link {
-  color: #61dafb;
+.skill-category li:hover {
+  background-color: #45a049;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+/* Footer Section */
+.footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 10px;
+  font-size: 0.9em;
 }
