@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/venkata-verse/precache-manifest.722ca65fb5b21abb94ec27999b7c15b1.js"
+  "/venkata-verse/precache-manifest.242087e32332b4875df7f5e9912e988a.js"
 );
 
 self.addEventListener('message', (event) => {
