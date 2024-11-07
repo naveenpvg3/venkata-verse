@@ -31,14 +31,24 @@ body {
   margin-right: 20px;
 }
 
-.navbar a {
+/* Navbar links and buttons styled as links */
+.navbar a,
+.navbar button {
   text-decoration: none;
   color: #fff;
   font-weight: bold;
   transition: color 0.3s ease;
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+  font-family: inherit;
+  padding: 0;
 }
 
-.navbar a:hover {
+/* Hover effect for navbar items */
+.navbar a:hover,
+.navbar button:hover {
   color: #ffcc00;
 }
 
@@ -60,12 +70,9 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  /* Horizontally centers content */
   justify-content: center;
-  /* Vertically centers content */
   text-align: center;
   margin-top: 20px;
-  /* Optional: Adds space above the section */
 }
 
 .profile-photo {
@@ -74,7 +81,6 @@ body {
   border-radius: 50%;
   object-fit: cover;
   margin-bottom: 10px;
-  /* Space between photo and name */
 }
 
 .icons-section {

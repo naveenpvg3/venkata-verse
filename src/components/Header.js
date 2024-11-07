@@ -4,6 +4,7 @@ import profilePhoto from '../assets/my-photo.jpg';
 import linkedinIcon from '../assets/linkedin-icon.png';
 import githubIcon from '../assets/github-icon.png';
 import leetcodeIcon from '../assets/leetcode-icon.png';
+import emailIcon from '../assets/email-icon.png';  // Import the email icon
 
 const Header = () => (
   <header className="header">
@@ -22,6 +23,9 @@ const Header = () => (
         </a>
         <a href="https://leetcode.com/venkata_palaka/" target="_blank" rel="noopener noreferrer">
           <img src={leetcodeIcon} alt="LeetCode" className="icon" />
+        </a>
+        <a href="mailto:venkatapalaka23@gmail.com" target="_blank" rel="noopener noreferrer">
+          <img src={emailIcon} alt="Email" className="icon" />
         </a>
       </div>
     </div>
