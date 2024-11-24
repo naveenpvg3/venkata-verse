@@ -40,7 +40,7 @@ const MyGear = () => {
       <h2>My Gear</h2>
       <p>Here you can find best products which Venkata use personally.</p>
       <ProductSection title="Referrals" products={referrals} />
-      <ProductSection title="Products" products={kitchen} />
+      <ProductSection title="Products" products={products} />
     </div>
   );
 };
