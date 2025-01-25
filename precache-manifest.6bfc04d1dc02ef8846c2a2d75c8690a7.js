@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "a1ad1968f367a40bdb52d7a03c0e3d9e",
+    "revision": "afee8142aa8fa4b61ba2080f4340dd91",
     "url": "/venkata-verse/index.html"
   },
   {
-    "revision": "a427b3843fb49af538c9",
-    "url": "/venkata-verse/static/css/main.12c691c4.chunk.css"
+    "revision": "d48c2ec78807a53c1893",
+    "url": "/venkata-verse/static/css/main.49feb306.chunk.css"
   },
   {
     "revision": "1fb7710874e762712475",
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/venkata-verse/static/js/3.fc5cbf83.chunk.js"
   },
   {
-    "revision": "a427b3843fb49af538c9",
-    "url": "/venkata-verse/static/js/main.f2d3b827.chunk.js"
+    "revision": "d48c2ec78807a53c1893",
+    "url": "/venkata-verse/static/js/main.3146c0c1.chunk.js"
   },
   {
     "revision": "b0e8c72370635b1806d9",
