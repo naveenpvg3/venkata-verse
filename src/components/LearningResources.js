@@ -19,7 +19,7 @@ const ResourceSection = ({ title, resources }) => (
 );
 
 const LearningResources = () => {
-  // Resources categorized under Incubators and Venture Capitalists
+  // Resources categorized under different sections
   const incubators = [
     { name: "Techstars", link: "https://www.techstars.com" }
     // Add more incubator resources here
@@ -32,7 +32,21 @@ const LearningResources = () => {
   ];
 
   const startupAccelators = [
-  { name: "Y Combinator", link: "https://www.ycombinator.com"}
+    { name: "Y Combinator", link: "https://www.ycombinator.com" }
+  ];
+
+  const aiResources = [
+    { name: "DeepLearning.AI", link: "https://www.deeplearning.ai" },
+    { name: "Google AI", link: "https://ai.google" },
+    { name: "Fast.ai", link: "https://www.fast.ai" },
+    { name: "OpenAI", link: "https://www.openai.com" }
+  ];
+
+  const financeManagementResources = [
+    { name: "Investopedia", link: "https://www.investopedia.com" },
+    { name: "Personal Finance by Dave Ramsey", link: "https://www.ramseysolutions.com" },
+    { name: "NerdWallet", link: "https://www.nerdwallet.com" },
+    { name: "Morningstar", link: "https://www.morningstar.com" }
   ];
 
   return (
@@ -41,7 +55,13 @@ const LearningResources = () => {
       <h3>Startup Resources</h3>
       <ResourceSection title="Incubators" resources={incubators} />
       <ResourceSection title="Venture Capitalists" resources={ventureCapitalists} />
-       <ResourceSection title="StartUp Accelators" resources={startupAccelators} />
+      <ResourceSection title="Startup Accelerators" resources={startupAccelators} />
+
+      <h3>AI Resources</h3>
+      <ResourceSection title="Artificial Intelligence Platforms and Courses" resources={aiResources} />
+
+      <h3>Finance Management Resources</h3>
+      <ResourceSection title="Finance Management and Investment Tools" resources={financeManagementResources} />
     </div>
   );
 };

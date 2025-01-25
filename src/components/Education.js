@@ -10,7 +10,7 @@ const Education = () => (
       {/* Add more details */}
     </div>
     <div className="education-entry">
-      <h2>Anil Neerukonda Institute of Technology and Sciences</h2>
+      <h2>Andhra University</h2>
       <p>Bachelor of Technology in Computer Science and Engineering</p>
     </div>
   </section>

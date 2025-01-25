@@ -25,6 +25,11 @@ const MyGear = () => {
       name: "SOFI Refinance", 
       link: "https://www.sofi.com/invite/student-loans?gcp=10cb67a7-ac1e-479e-9854-d9f8c3c65411&isAliasGcp=false", 
       description: "Save on Education Loan with $300 welcome bonus" 
+    },
+    { 
+      name: "American Express (Amex)", 
+      link: "https://americanexpress.com/en-us/referral/blue-cash-preferred-credit-card?ref=VENKAPyEDW&XL=MIANS", 
+      description: "Earn upto $250 in rewards with my Amex referral!" 
     }
     // Add more referral links here
   ];
