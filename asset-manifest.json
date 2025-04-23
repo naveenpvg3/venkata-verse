@@ -1,19 +1,17 @@
 {
   "files": {
-    "main.css": "/venkata-verse/static/css/main.49feb306.chunk.css",
-    "main.js": "/venkata-verse/static/js/main.3146c0c1.chunk.js",
-    "main.js.map": "/venkata-verse/static/js/main.3146c0c1.chunk.js.map",
-    "runtime~main.js": "/venkata-verse/static/js/runtime~main.ce8807b1.js",
-    "runtime~main.js.map": "/venkata-verse/static/js/runtime~main.ce8807b1.js.map",
-    "static/js/2.903bbf5a.chunk.js": "/venkata-verse/static/js/2.903bbf5a.chunk.js",
-    "static/js/2.903bbf5a.chunk.js.map": "/venkata-verse/static/js/2.903bbf5a.chunk.js.map",
-    "static/js/3.fc5cbf83.chunk.js": "/venkata-verse/static/js/3.fc5cbf83.chunk.js",
-    "static/js/3.fc5cbf83.chunk.js.map": "/venkata-verse/static/js/3.fc5cbf83.chunk.js.map",
+    "main.css": "/venkata-verse/static/css/main.e07bcb39.css",
+    "main.js": "/venkata-verse/static/js/main.5c99f0ce.js",
+    "static/js/453.e48fd5a8.chunk.js": "/venkata-verse/static/js/453.e48fd5a8.chunk.js",
+    "static/media/my-photo.jpg": "/venkata-verse/static/media/my-photo.24663c29d6972aaf9371.jpg",
+    "static/media/leetcode-icon.png": "/venkata-verse/static/media/leetcode-icon.73b5137e6712388cbe4f.png",
     "index.html": "/venkata-verse/index.html",
-    "precache-manifest.6bfc04d1dc02ef8846c2a2d75c8690a7.js": "/venkata-verse/precache-manifest.6bfc04d1dc02ef8846c2a2d75c8690a7.js",
-    "service-worker.js": "/venkata-verse/service-worker.js",
-    "static/css/main.49feb306.chunk.css.map": "/venkata-verse/static/css/main.49feb306.chunk.css.map",
-    "static/media/leetcode-icon.png": "/venkata-verse/static/media/leetcode-icon.90957b38.png",
-    "static/media/my-photo.jpg": "/venkata-verse/static/media/my-photo.033f6a07.jpg"
-  }
+    "main.e07bcb39.css.map": "/venkata-verse/static/css/main.e07bcb39.css.map",
+    "main.5c99f0ce.js.map": "/venkata-verse/static/js/main.5c99f0ce.js.map",
+    "453.e48fd5a8.chunk.js.map": "/venkata-verse/static/js/453.e48fd5a8.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e07bcb39.css",
+    "static/js/main.5c99f0ce.js"
+  ]
 }
